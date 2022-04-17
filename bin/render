@@ -6,6 +6,7 @@ declare(strict_types=1);
 use League\CommonMark\Extension\FrontMatter\Data\SymfonyYamlFrontMatterParser;
 use League\CommonMark\Extension\FrontMatter\FrontMatterParser;
 use LukasRyder\Notes\Category\CategoryBuilder;
+use LukasRyder\Notes\Category\Renderer\MarkdownRenderer;
 use LukasRyder\Notes\FrontMatter\FrontMatterExtractor;
 use LukasRyder\Notes\NoteFactory;
 use LukasRyder\Notes\Validator\UniqueTagDepthValidator;
@@ -20,7 +21,7 @@ $factory = new NoteFactory(
     )
 );
 $validator = new UniqueTagDepthValidator();
-
+$renderer = new MarkdownRenderer();
 $builder = new CategoryBuilder();
 
 foreach (array_slice($argv, 1) as $file) {
@@ -40,9 +41,7 @@ foreach (array_slice($argv, 1) as $file) {
     $builder->addNote($note);
 }
 
-$root = $builder->create();
-
 fwrite(
     STDOUT,
-    json_encode($root, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT) . PHP_EOL
+    $renderer->render($builder->create()) . PHP_EOL
 );
