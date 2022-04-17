@@ -1,0 +1,30 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+use League\CommonMark\Extension\FrontMatter\Data\SymfonyYamlFrontMatterParser;
+use League\CommonMark\Extension\FrontMatter\FrontMatterParser;
+use LukasRyder\Notes\Category\CategoryBuilder;
+use LukasRyder\Notes\FrontMatter\FrontMatterExtractor;
+use LukasRyder\Notes\NoteFactory;
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+$factory = new NoteFactory(
+    new FrontMatterExtractor(
+        new FrontMatterParser(
+            new SymfonyYamlFrontMatterParser()
+        )
+    )
+);
+
+$builder = new CategoryBuilder();
+
+foreach (array_slice($argv, 1) as $file) {
+    $builder->addNote($factory->create($file));
+}
+
+$root = $builder->create();
+
+echo json_encode($root, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT) . PHP_EOL;
