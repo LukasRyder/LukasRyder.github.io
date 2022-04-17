@@ -4,17 +4,19 @@ declare(strict_types=1);
 
 namespace LukasRyder\Notes\Category;
 
+use LukasRyder\Notes\Category\Path\LongestPathGenerator;
+use LukasRyder\Notes\Category\Path\PathGeneratorInterface;
 use LukasRyder\Notes\Note;
 
 final class CategoryBuilder
 {
     private const DEFAULT_ROOT_CATEGORY = 'Index';
-    private const CATEGORY_SEPARATOR = '/';
 
     /** @var array<int,Note> */
     private array $notes = [];
 
     public function __construct(
+        private readonly PathGeneratorInterface $pathGenerator = new LongestPathGenerator(),
         private readonly string $rootCategoryName = self::DEFAULT_ROOT_CATEGORY
     ) {}
 
@@ -36,8 +38,7 @@ final class CategoryBuilder
 
     private function createTree(Category $root, Note $note): void
     {
-        foreach ($note->frontMatter->tags as $tag) {
-            $path = explode(self::CATEGORY_SEPARATOR, $tag);
+        foreach ($this->pathGenerator->generate($note) as $path) {
             $this->createNodeFromPath($root, $note, ...$path);
         }
     }
