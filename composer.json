@@ -8,17 +8,9 @@
     "symfony/yaml": "@stable",
     "league/commonmark": "^2.3"
   },
-  "require-dev": {
-    "phpunit/phpunit": "@stable"
-  },
   "autoload": {
     "psr-4": {
       "LukasRyder\\Notes\\": "src"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "LukasRyder\\Notes\\Tests\\": "tests"
     }
   }
 }
