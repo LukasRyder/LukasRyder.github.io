@@ -11,7 +11,7 @@ public: notes/*.md attachments/* vendor/autoload.php index.md
 	mkdir $@
 	cp -r notes $@/notes
 	cp -r attachments $@/attachments
-	cp index.md public/index.md
+	cp index.md $@/index.md
 
 clean:
 	rm -rf public index.md
