@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace LukasRyder\Notes\Category;
 
-use JetBrains\PhpStorm\Internal\TentativeType;
 use RecursiveIterator;
 
 final class Category implements ParentNodeInterface
