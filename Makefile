@@ -1,7 +1,8 @@
 composer.lock: composer.json
-	composer2 install
+	composer2 update
 
 vendor/autoload.php: composer.lock
+	composer2 install
 
 index.md: notes/*.md attachments/* vendor/autoload.php bin/render
 	bin/render notes/*.md > $@
