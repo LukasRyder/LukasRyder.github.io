@@ -8,6 +8,7 @@ use League\CommonMark\Extension\FrontMatter\FrontMatterParser;
 use LukasRyder\Notes\Category\CategoryBuilder;
 use LukasRyder\Notes\FrontMatter\FrontMatterExtractor;
 use LukasRyder\Notes\NoteFactory;
+use LukasRyder\Notes\Validator\UniqueTagDepthValidator;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
@@ -18,13 +19,30 @@ $factory = new NoteFactory(
         )
     )
 );
+$validator = new UniqueTagDepthValidator();
 
 $builder = new CategoryBuilder();
 
 foreach (array_slice($argv, 1) as $file) {
-    $builder->addNote($factory->create($file));
+    $note = $factory->create($file);
+
+    if (!$validator->validates($note)) {
+        fwrite(
+            STDERR,
+            sprintf(
+                'Encountered invalid note: %s',
+                json_encode($note, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES)
+            ) . PHP_EOL
+        );
+        exit(1);
+    }
+
+    $builder->addNote($note);
 }
 
 $root = $builder->create();
 
-echo json_encode($root, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT) . PHP_EOL;
+fwrite(
+    STDOUT,
+    json_encode($root, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT) . PHP_EOL
+);

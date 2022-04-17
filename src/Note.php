@@ -24,7 +24,8 @@ final class Note implements NodeInterface
     {
         return [
             'name' => $this->getName(),
-            'path' => $this->file->getPathname()
+            'path' => $this->file->getPathname(),
+            'frontMatter' => $this->frontMatter
         ];
     }
 }
