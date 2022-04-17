@@ -1,0 +1,47 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+use League\CommonMark\Extension\FrontMatter\Data\SymfonyYamlFrontMatterParser;
+use League\CommonMark\Extension\FrontMatter\FrontMatterParser;
+use LukasRyder\Notes\Category\CategoryBuilder;
+use LukasRyder\Notes\Category\Renderer\MarkdownRenderer;
+use LukasRyder\Notes\FrontMatter\FrontMatterExtractor;
+use LukasRyder\Notes\NoteFactory;
+use LukasRyder\Notes\Validator\UniqueTagDepthValidator;
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+$factory = new NoteFactory(
+    new FrontMatterExtractor(
+        new FrontMatterParser(
+            new SymfonyYamlFrontMatterParser()
+        )
+    )
+);
+$validator = new UniqueTagDepthValidator();
+$renderer = new MarkdownRenderer();
+$builder = new CategoryBuilder();
+
+foreach (array_slice($argv, 1) as $file) {
+    $note = $factory->create($file);
+
+    if (!$validator->validates($note)) {
+        fwrite(
+            STDERR,
+            sprintf(
+                'Encountered invalid note: %s',
+                json_encode($note, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES)
+            ) . PHP_EOL
+        );
+        exit(1);
+    }
+
+    $builder->addNote($note);
+}
+
+fwrite(
+    STDOUT,
+    $renderer->render($builder->create()) . PHP_EOL
+);
