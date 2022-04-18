@@ -2,12 +2,12 @@
 tags: [Notebooks/D&D/Tundra Campaign/Monsters]
 title: Rhemorhaz
 created: '2022-04-05T20:51:56.908Z'
-modified: '2022-04-05T21:24:08.470Z'
+modified: '2022-04-06T15:10:31.435Z'
 ---
 
 # Rhemorhaz
 
-<img src="../attachments/Rhemorhaz.jpeg" width="200" height="200" />
+<img src="https://www.dndbeyond.com/avatars/thumbnails/0/231/284/315/636252766143328421.jpeg" width="200" height="200" />
 
 [D&D Beyond](https://www.dndbeyond.com/monsters/remorhaz)
 

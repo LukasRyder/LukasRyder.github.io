@@ -1,8 +1,8 @@
 ---
-tags: [Notebooks/D&D/Tundra Campaign, Notebooks/D&D/Tundra Campaign/NPCs]
+tags: [Notebooks/D&D/Tundra Campaign/NPCs]
 title: Alfred the Ox
 created: '2022-04-05T19:20:40.895Z'
-modified: '2022-04-06T10:31:57.454Z'
+modified: '2022-04-06T20:48:09.375Z'
 ---
 
 # Alfred the Ox
