@@ -5,9 +5,15 @@
       - NPCs
         - [Alfred the Ox](notes/Alfred%20the%20Ox.md)
         - [Arcturis](notes/Arcturis.md)
+        - [Big Tom](notes/Big%20Tom.md)
+        - [Costaldo](notes/Costaldo.md)
         - [Daero](notes/Daero.md)
+        - [Duerth](notes/Duerth.md)
         - [Harper](notes/Harper.md)
+        - [Kobolds](notes/Kobolds.md)
+        - [Little Tom](notes/Little%20Tom.md)
         - [Vyth](notes/Vyth.md)
+        - [Xardurok](notes/Xardurok.md)
       - Characters
         - Inactive
           - [Algernon](notes/Algernon.md)
@@ -16,15 +22,26 @@
         - Active
           - [Fionnlagh](notes/Fionnlagh.md)
           - [Jar](notes/Jar.md)
+          - [Kaos](notes/Kaos.md)
           - [Morn](notes/Morn.md)
+          - [Spark](notes/Spark.md)
       - Locations
+        - [Arcturises Tower](notes/Arcturises%20Tower.md)
         - [Broken Ice Bay](notes/Broken%20Ice%20Bay.md)
         - [Crystal Desert](notes/Crystal%20Desert.md)
-        - [Elemental Fundamentals](notes/Elemental-Fundamentals.md)
+        - [Dragon Lair](notes/Dragon%20Lair.md)
+        - [Elemental Fundamentals](notes/Elemental%20Fundamentals.md)
         - [Emberhold](notes/Emberhold.md)
+        - [Testing Facility](notes/Testing%20Facility.md)
         - [Tree Of Dolls](notes/Tree%20Of%20Dolls.md)
+      - Artifacts
+        - [Colossus](notes/Colossus.md)
+        - [Fuel Core](notes/Fuel%20Core.md)
       - Gods
+        - [Gond](notes/Gond.md)
         - [Helm](notes/Helm.md)
+        - [Selûne](notes/Selûne.md)
+        - [Shar](notes/Shar.md)
       - Monsters
         - [Plesiosaurus](notes/Plesiosaurus.md)
         - [Rhemorhaz](notes/Rhemorhaz.md)
@@ -52,3 +69,4 @@
         - [Session 020](notes/Session%20020.md)
         - [Session 021 - Pet One Shot](notes/Session%20021%20-%20Pet%20One%20Shot.md)
         - [Session 022](notes/Session%20022.md)
+        - [Session 023](notes/Session%20023.md)
