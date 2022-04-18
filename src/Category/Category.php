@@ -4,9 +4,13 @@ declare(strict_types=1);
 
 namespace LukasRyder\Notes\Category;
 
+use LukasRyder\Notes\Sorter\Context;
+use LukasRyder\Notes\Sorter\ContextInterface;
+use LukasRyder\Notes\Sorter\SortableInterface;
+use LukasRyder\Notes\Sorter\SorterInterface;
 use RecursiveIterator;
 
-final class Category implements ParentNodeInterface
+final class Category implements ParentNodeInterface, SortableInterface
 {
     private array $children = [];
 
@@ -88,5 +92,31 @@ final class Category implements ParentNodeInterface
             'name' => $this->getName(),
             'children' => array_values($this->children)
         ];
+    }
+
+    /** @noinspection PhpUnnecessaryStaticReferenceInspection */
+    public function sort(
+        SorterInterface $sorter,
+        ?ContextInterface $context = null
+    ): static {
+        $result = new self($this->getName());
+
+        $context?->push($this);
+        $context ??= new Context();
+
+        $children = array_map(
+            fn (NodeInterface $node) => $node instanceof SortableInterface
+                ? $node->sort($sorter, $context)
+                : $node,
+            array_values($this->children)
+        );
+
+        foreach ($sorter->sort($children, $context) as $node) {
+            $result->addChild($node);
+        }
+
+        $context->pop();
+
+        return $result;
     }
 }
