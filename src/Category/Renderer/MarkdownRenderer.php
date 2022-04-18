@@ -103,7 +103,7 @@ final class MarkdownRenderer implements RendererInterface
 
         yield $this->createPadding($depth) . sprintf(
             '<li><a href="%s">%s</a></li>',
-            $url,
+            preg_replace('/\.md$/', '.html', $url),
             $note->getName()
         );
     }
