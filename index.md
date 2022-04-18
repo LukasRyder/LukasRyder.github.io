@@ -1,5 +1,17 @@
 # Notebooks
 <details>
+  <summary>Cooking</summary>
+  <ul>
+    <details>
+      <summary>Tips & Tricks</summary>
+      <ul>
+        <li><a href="notes/Air Fryer Settings.html">Air Fryer Settings</a></li>
+        <li><a href="notes/Known Weights.html">Known Weights</a></li>
+      </ul>
+    </details>
+  </ul>
+</details>
+<details>
   <summary>D&D</summary>
   <ul>
     <details>
