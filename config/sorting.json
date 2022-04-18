@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/sorting.json",
+  "sorting": [
+    {
+      "path": ["Notebooks", "D&D", "Tundra Campaign", "Session Notes"],
+      "property": "name",
+      "direction": "desc"
+    }
+  ]
+}
