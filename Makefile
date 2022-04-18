@@ -12,6 +12,8 @@ public: notes/*.md attachments/* vendor/autoload.php index.md
 	cp -r notes $@/notes
 	cp -r attachments $@/attachments
 	cp index.md $@/index.md
+	cp CNAME $@/CNAME
+	cp _config.yml $@/_config.yml
 
 clean:
 	rm -rf public index.md

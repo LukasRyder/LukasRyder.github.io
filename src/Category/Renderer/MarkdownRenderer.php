@@ -14,11 +14,13 @@ final class MarkdownRenderer implements RendererInterface
     private const DEFAULT_PADDING_CHARACTER = ' ';
     private const DEFAULT_PADDING_SIZE = 2;
     private const DEFAULT_LIST_ITEM_PREFIX = '- ';
+    private const DEFAULT_ENCODE_SPACES = false;
 
     public function __construct(
         private readonly string $paddingCharacter = self::DEFAULT_PADDING_CHARACTER,
         private readonly int $paddingSize = self::DEFAULT_PADDING_SIZE,
-        private readonly string $listItemPrefix = self::DEFAULT_LIST_ITEM_PREFIX
+        private readonly string $listItemPrefix = self::DEFAULT_LIST_ITEM_PREFIX,
+        private readonly bool $encodeSpaces = self::DEFAULT_ENCODE_SPACES
     ) {}
 
     public function render(Category $category): string
@@ -75,7 +77,9 @@ final class MarkdownRenderer implements RendererInterface
         yield $this->createPrefix($depth) . sprintf(
             '[%s](%s)',
                 $note->getName(),
-                str_replace(' ', '%20', $note->file->getPathname())
+                $this->encodeSpaces
+                    ? str_replace(' ', '%20', $note->file->getPathname())
+                    : $note->file->getPathname()
         );
     }
 }
