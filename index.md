@@ -87,6 +87,7 @@
             <li><a href="notes/Daero.html">Daero</a></li>
             <li><a href="notes/Duerth.html">Duerth</a></li>
             <li><a href="notes/Harper.html">Harper</a></li>
+            <li><a href="notes/Kall.html">Kall</a></li>
             <li><a href="notes/Kobolds.html">Kobolds</a></li>
             <li><a href="notes/Little Tom.html">Little Tom</a></li>
             <li><a href="notes/Vyth.html">Vyth</a></li>
@@ -96,6 +97,7 @@
         <details>
           <summary>Session Notes</summary>
           <ul>
+            <li><a href="notes/Session 024.html">Session 024</a></li>
             <li><a href="notes/Session 023.html">Session 023</a></li>
             <li><a href="notes/Session 022.html">Session 022</a></li>
             <li><a href="notes/Session 021 - Pet One Shot.html">Session 021 - Pet One Shot</a></li>
