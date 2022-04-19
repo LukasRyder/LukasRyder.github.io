@@ -7,6 +7,7 @@ namespace LukasRyder\Notes\Category;
 use LukasRyder\Notes\Category\Path\LongestPathGenerator;
 use LukasRyder\Notes\Category\Path\PathGeneratorInterface;
 use LukasRyder\Notes\Note;
+use LukasRyder\Notes\Sorter\SorterInterface;
 
 final class CategoryBuilder
 {
@@ -16,6 +17,7 @@ final class CategoryBuilder
     private array $notes = [];
 
     public function __construct(
+        private readonly SorterInterface $sorter,
         private readonly PathGeneratorInterface $pathGenerator = new LongestPathGenerator(),
         private readonly string $rootCategoryName = self::DEFAULT_ROOT_CATEGORY
     ) {}
@@ -33,7 +35,7 @@ final class CategoryBuilder
             $this->createTree($root, $note);
         }
 
-        return $root;
+        return $root->sort($this->sorter);
     }
 
     private function createTree(Category $root, Note $note): void

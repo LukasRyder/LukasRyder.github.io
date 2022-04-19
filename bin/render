@@ -9,6 +9,7 @@ use LukasRyder\Notes\Category\CategoryBuilder;
 use LukasRyder\Notes\Category\Renderer\MarkdownRenderer;
 use LukasRyder\Notes\FrontMatter\FrontMatterExtractor;
 use LukasRyder\Notes\NoteFactory;
+use LukasRyder\Notes\Sorter\ConfigurableSorter;
 use LukasRyder\Notes\Validator\UniqueTagDepthValidator;
 
 require_once __DIR__ . '/../vendor/autoload.php';
@@ -22,7 +23,11 @@ $factory = new NoteFactory(
 );
 $validator = new UniqueTagDepthValidator();
 $renderer = new MarkdownRenderer();
-$builder = new CategoryBuilder();
+$builder = new CategoryBuilder(
+    sorter: ConfigurableSorter::createFromFile(
+        __DIR__ . '/../config/sorting.json'
+    )
+);
 
 foreach (array_slice($argv, 1) as $file) {
     $note = $factory->create($file);
