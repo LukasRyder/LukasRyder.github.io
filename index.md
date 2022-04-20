@@ -3,6 +3,12 @@
   <summary>Cooking</summary>
   <ul>
     <details>
+      <summary>Recipes</summary>
+      <ul>
+        <li><a href="notes/French Onion Soup Au Gratin.html">French Onion Soup Au Gratin</a></li>
+      </ul>
+    </details>
+    <details>
       <summary>Tips & Tricks</summary>
       <ul>
         <li><a href="notes/Air Fryer Settings.html">Air Fryer Settings</a></li>
