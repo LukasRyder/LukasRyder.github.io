@@ -2,7 +2,7 @@
 tags: [Diet/Low Lactose, Ingredients/Gruy­è­re, Ingredients/White Onion, Meal Course/Soup, Notebooks/Cooking/Recipes, Tools/Ninja Foodi]
 title: French Onion Soup Au Gratin
 created: '2022-04-20T13:14:51.167Z'
-modified: '2022-04-20T13:37:40.245Z'
+modified: '2022-04-20T13:48:18.073Z'
 ---
 
 # French Onion Soup Au Gratin
@@ -26,7 +26,7 @@ modified: '2022-04-20T13:37:40.245Z'
 
 Preptime:   15 minutes
 Cooktime:   43 minutes
-Servings:   4
+Servings:   4 
 
 #### Steps
 1. Select SEAR/SAUTÉ and set to MD:HI. Allow to preheat for 5 minutes.
