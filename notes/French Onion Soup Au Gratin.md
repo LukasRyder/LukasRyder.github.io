@@ -2,21 +2,21 @@
 tags: [Notebooks/Cooking/Recipes]
 title: French Onion Soup Au Gratin
 created: '2022-04-20T13:14:51.167Z'
-modified: '2022-04-20T14:01:15.318Z'
+modified: '2022-04-20T14:09:26.132Z'
 ---
 
 # French Onion Soup Au Gratin
 
 <img src="../attachments/Food Pictures/French Onion Soup Au Gratin 01.jpg" width="200" height="200" /> 
 
-|  | Details |
+| <img width=200/> | Details |
 | :---- | :---- |
 | Prep Time | 15 minutes |
 | Cook Time | 43 minutes |
 | Servings | 4 |
 
 
-|  | Ingredients |
+| <img width=200/> | Ingredients |
 | :---- | :---- |
 | 2 tbsp | Butter |
 | 2 | Large White Onions |
@@ -28,6 +28,7 @@ modified: '2022-04-20T14:01:15.318Z'
 | 1 tbsp | Kosher Salt |
 | 1 tbsp | Ground Black Pepper |
 | 150 gr | Gruy­è­re |
+
 
 #### Steps
 1. Select SEAR/SAUTÉ and set to MD:HI. Allow to preheat for 5 minutes.
