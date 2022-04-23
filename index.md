@@ -5,6 +5,7 @@
     <details>
       <summary>Recipes</summary>
       <ul>
+        <li><a href="notes/Corn Salad.html">Corn Salad</a></li>
         <li><a href="notes/French Onion Soup Au Gratin.html">French Onion Soup Au Gratin</a></li>
       </ul>
     </details>
