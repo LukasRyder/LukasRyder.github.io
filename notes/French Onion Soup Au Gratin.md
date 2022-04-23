@@ -2,22 +2,21 @@
 tags: [Notebooks/Cooking/Recipes]
 title: French Onion Soup Au Gratin
 created: '2022-04-20T13:14:51.167Z'
-modified: '2022-04-20T14:09:26.132Z'
+modified: '2022-04-21T11:23:58.750Z'
 ---
 
 # French Onion Soup Au Gratin
 
 <img src="../attachments/Food Pictures/French Onion Soup Au Gratin 01.jpg" width="200" height="200" /> 
 
-| <img width=200/> | Details |
+| | Details |
 | :---- | :---- |
 | Prep Time | 15 minutes |
 | Cook Time | 43 minutes |
 | Servings | 4 |
 
-
-| <img width=200/> | Ingredients |
-| :---- | :---- |
+| | Ingredients |
+| ----: | :---- |
 | 2 tbsp | Butter |
 | 2 | Large White Onions |
 | 1 tbsp | Tomato Paste |
