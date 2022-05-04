@@ -29,6 +29,7 @@
           <ul>
             <li><a href="notes/Colossus.html">Colossus</a></li>
             <li><a href="notes/Fuel Core.html">Fuel Core</a></li>
+            <li><a href="notes/Spell Restoring Ring.html">Spell Restoring Ring</a></li>
           </ul>
         </details>
         <details>
@@ -96,6 +97,7 @@
             <li><a href="notes/Harper.html">Harper</a></li>
             <li><a href="notes/Kall.html">Kall</a></li>
             <li><a href="notes/Kobolds.html">Kobolds</a></li>
+            <li><a href="notes/Kras.html">Kras</a></li>
             <li><a href="notes/Little Tom.html">Little Tom</a></li>
             <li><a href="notes/Vyth.html">Vyth</a></li>
             <li><a href="notes/Xardurok.html">Xardurok</a></li>
@@ -104,6 +106,7 @@
         <details>
           <summary>Session Notes</summary>
           <ul>
+            <li><a href="notes/Session 025.html">Session 025</a></li>
             <li><a href="notes/Session 024.html">Session 024</a></li>
             <li><a href="notes/Session 023.html">Session 023</a></li>
             <li><a href="notes/Session 022.html">Session 022</a></li>

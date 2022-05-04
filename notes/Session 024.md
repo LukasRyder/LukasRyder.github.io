@@ -2,12 +2,12 @@
 tags: [Notebooks/D&D/Tundra Campaign/Session Notes]
 title: Session 024
 created: '2022-04-19T17:20:37.630Z'
-modified: '2022-04-19T20:01:31.838Z'
+modified: '2022-05-04T16:57:48.042Z'
 ---
 
 # Session 024
 
-EVerybody is waking up and coming into the Elemental Fundamentals. Spark is getting ignored by the patrons. Harper wakes up Kaos. Morn comes downstairs, looking tired. Jar is walking down the stairs hoping it was all a dream... discovering it wasn´t he asks for liquor. Morn asks Spark if he has a good night and he comes to life. Harper startles but then introduces herself to Spark. Spark tells her he wants to help around the community. She welcomes him and offers a tour of the village.
+Everybody is waking up and coming into the Elemental Fundamentals. Spark is getting ignored by the patrons. Harper wakes up Kaos. Morn comes downstairs, looking tired. Jar is walking down the stairs hoping it was all a dream... discovering it wasn´t he asks for liquor. Morn asks Spark if he has a good night and he comes to life. Harper startles but then introduces herself to Spark. Spark tells her he wants to help around the community. She welcomes him and offers a tour of the village.
 
 Spark tries to get a piece of the dark stone in the centre of the town. He spells his chizzle and tries to brake a piece off. It doesn´t work.
 

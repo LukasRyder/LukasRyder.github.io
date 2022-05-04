@@ -2,7 +2,7 @@
 tags: [Notebooks/D&D/Tundra Campaign/Characters/Active]
 title: Fionnlagh
 created: '2022-04-05T19:33:32.592Z'
-modified: '2022-04-19T19:50:24.033Z'
+modified: '2022-05-04T19:40:31.494Z'
 ---
 
 # Fionnlagh
@@ -16,8 +16,7 @@ modified: '2022-04-19T19:50:24.033Z'
 | First Session: | [Session 001](./Session 001.md) |
 
 ### Current State
-26+5 max HP
-1 level of exhaustion
+26(+5 aid) max HP
 
 ### Items
 Clockwork amulet: 
