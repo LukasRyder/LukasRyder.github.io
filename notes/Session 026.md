@@ -2,7 +2,7 @@
 tags: [Notebooks/D&D/Tundra Campaign/Session Notes]
 title: Session 026
 created: '2022-05-25T16:55:51.304Z'
-modified: '2022-05-25T20:25:24.912Z'
+modified: '2022-05-25T20:36:24.210Z'
 ---
 
 # Session 026
@@ -90,3 +90,5 @@ Morn: "he does´t drink"
 Jar: "but WE do"
 
 The funeral pyre dies out slowly, Jar gets drunk and we have a full nights rest. We ride back to Emberhold. 
+
+> Level Up to Level 7
