@@ -2,7 +2,7 @@
 tags: [Notebooks/D&D/Tundra Campaign/Session Notes]
 title: Session 027
 created: '2022-06-15T17:17:09.704Z'
-modified: '2022-06-15T21:13:09.284Z'
+modified: '2022-06-30T17:27:24.660Z'
 ---
 
 # Session 027
@@ -70,7 +70,6 @@ The next "morning". Jar takes a half day to repair the damage to the boat. Fionn
 We see a sort of beach, and there is an portruding thing off the glacier/icewall. We dock at the beach. Vyth burns a curving slope and Spark and Chaos pull it on top of the ice. Chaos nails two tentpegs in the sand/clay beach and ties the rope with a beach.
 
 There is something flapping from the shape. Everybody ties themselves together, except Fionn.
-
 
 There is a big segmanted tail, 20ft above us. It doesn´t have legs. It is clearly metal.
 
