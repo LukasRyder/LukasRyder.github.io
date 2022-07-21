@@ -7,6 +7,7 @@
       <ul>
         <li><a href="notes/Corn Salad.html">Corn Salad</a></li>
         <li><a href="notes/French Onion Soup Au Gratin.html">French Onion Soup Au Gratin</a></li>
+        <li><a href="notes/Penne Salmon.html">Penne Salmon</a></li>
       </ul>
     </details>
     <details>
@@ -14,6 +15,7 @@
       <ul>
         <li><a href="notes/Air Fryer Settings.html">Air Fryer Settings</a></li>
         <li><a href="notes/Known Weights.html">Known Weights</a></li>
+        <li><a href="notes/Oven Settings.html">Oven Settings</a></li>
       </ul>
     </details>
   </ul>
@@ -27,9 +29,12 @@
         <details>
           <summary>Artifacts</summary>
           <ul>
+            <li><a href="notes/Amulet.html">Amulet</a></li>
             <li><a href="notes/Colossus.html">Colossus</a></li>
             <li><a href="notes/Fuel Core.html">Fuel Core</a></li>
+            <li><a href="notes/Pipes of Hounting.html">Pipes of Hounting</a></li>
             <li><a href="notes/Spell Restoring Ring.html">Spell Restoring Ring</a></li>
+            <li><a href="notes/Steamship.html">Steamship</a></li>
           </ul>
         </details>
         <details>
@@ -38,9 +43,9 @@
             <details>
               <summary>Active</summary>
               <ul>
+                <li><a href="notes/Chaos.html">Chaos</a></li>
                 <li><a href="notes/Fionnlagh.html">Fionnlagh</a></li>
                 <li><a href="notes/Jar.html">Jar</a></li>
-                <li><a href="notes/Kaos.html">Kaos</a></li>
                 <li><a href="notes/Morn.html">Morn</a></li>
                 <li><a href="notes/Spark.html">Spark</a></li>
               </ul>
@@ -96,9 +101,11 @@
             <li><a href="notes/Duerth.html">Duerth</a></li>
             <li><a href="notes/Harper.html">Harper</a></li>
             <li><a href="notes/Kall.html">Kall</a></li>
+            <li><a href="notes/Klothak.html">Klothak</a></li>
             <li><a href="notes/Kobolds.html">Kobolds</a></li>
             <li><a href="notes/Kras.html">Kras</a></li>
             <li><a href="notes/Little Tom.html">Little Tom</a></li>
+            <li><a href="notes/Mako.html">Mako</a></li>
             <li><a href="notes/Vyth.html">Vyth</a></li>
             <li><a href="notes/Xardurok.html">Xardurok</a></li>
           </ul>
@@ -106,6 +113,9 @@
         <details>
           <summary>Session Notes</summary>
           <ul>
+            <li><a href="notes/Session 028.html">Session 028</a></li>
+            <li><a href="notes/Session 027.html">Session 027</a></li>
+            <li><a href="notes/Session 026.html">Session 026</a></li>
             <li><a href="notes/Session 025.html">Session 025</a></li>
             <li><a href="notes/Session 024.html">Session 024</a></li>
             <li><a href="notes/Session 023.html">Session 023</a></li>

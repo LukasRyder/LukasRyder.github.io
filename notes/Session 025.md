@@ -2,7 +2,7 @@
 tags: [Notebooks/D&D/Tundra Campaign/Session Notes]
 title: Session 025
 created: '2022-05-04T16:57:58.324Z'
-modified: '2022-05-04T20:11:05.627Z'
+modified: '2022-05-25T17:09:33.967Z'
 ---
 
 # Session 025
@@ -80,13 +80,4 @@ The turned over earth the rat avoided is a patch with a hole in it, where it loo
 Spark lights a prayer candle and throws it down the hole. Kaos comes closer and tries to investigate the hole more. She sees that the area is a place where a regular animal would make a den. On the lower floor Spark sees some collapsed down earth, some crates and a big and small door.
 
 Kaos drops Vyth down the hole.
-
-
-
-
-
-
-
-
-
 

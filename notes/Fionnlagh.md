@@ -2,7 +2,7 @@
 tags: [Notebooks/D&D/Tundra Campaign/Characters/Active]
 title: Fionnlagh
 created: '2022-04-05T19:33:32.592Z'
-modified: '2022-05-04T19:40:31.494Z'
+modified: '2022-06-30T19:56:52.368Z'
 ---
 
 # Fionnlagh
@@ -16,7 +16,9 @@ modified: '2022-05-04T19:40:31.494Z'
 | First Session: | [Session 001](./Session 001.md) |
 
 ### Current State
-26(+5 aid) max HP
+31 max HP + aid 5 (8hrs) = 36 > 33 > 17 > 3 > 0 > 8 > 16 > 36
+5 KI points
+Used 4 hit points.
 
 ### Items
 Clockwork amulet: 
@@ -25,6 +27,13 @@ Wondrous item, common
 This copper amulet contains tiny interlocking gears and is powered by magic from Mechanus, a plane of clockwork predictability. A creature that puts an ear to the amulet can hear faint ticking and whirring noises coming from within.
 
 When you make an attack roll while wearing the amulet, you can forgo rolling the d20 to get a 10 on the die. Once used, this property can't be used again until the next dawn.
+
+Brass knuckles are weapons finess for sneakattack
+
+lost his thieves tools
+
+## Salary
+10 GP a day paid out in Emberholt.
 
 ### Background Story
 As a newborn, I was left at the doorstep of a human monastery. I was wrapped in a purple blanket and there was no letter or other clue. I was raised as an acolyte in a monastery. I was the only child there and had to entertain myself in between prayer, lessons and meals. The monastery is dedicated to Selûne. I can find common ground between the fiercest enemies, empathizing with them and always working toward peace. Nothing can shake my optimistic attitude.
