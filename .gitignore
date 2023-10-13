@@ -1,3 +1,6 @@
 /vendor/
 /index.md
 /public/
+
+# Temporary build file
+/index.md.tmp
