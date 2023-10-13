@@ -2,7 +2,7 @@
 tags: [Notebooks/Learning/AZ900/2023-10]
 title: 0 - Introduction
 created: '2023-10-12T07:03:56.016Z'
-modified: '2023-10-13T07:09:07.216Z'
+modified: '2023-10-13T11:20:23.296Z'
 ---
 
 # 0 - Introduction
@@ -19,7 +19,6 @@ modified: '2023-10-13T07:09:07.216Z'
 
 ### Lab environment
 [Global Knowledge](https://gknetherlands.learnondemand.net/Class/565732)
-AD8EF27145744F76
 
 ### Tips and tricks
 - Portal settings: new is that you need to apply changes.
