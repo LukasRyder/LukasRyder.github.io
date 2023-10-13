@@ -5,6 +5,7 @@
     <details>
       <summary>Recipes</summary>
       <ul>
+        <li><a href="notes/Chicken Thighs in Peanut Sauce with Green Beans.html">Chicken Thighs in Peanut Sauce with Green Beans</a></li>
         <li><a href="notes/Corn Salad.html">Corn Salad</a></li>
         <li><a href="notes/French Onion Soup Au Gratin.html">French Onion Soup Au Gratin</a></li>
         <li><a href="notes/Penne Salmon.html">Penne Salmon</a></li>
@@ -63,10 +64,18 @@
         <details>
           <summary>Gods</summary>
           <ul>
+            <li><a href="notes/Auril, The Frost Maiden.html">Auril, The Frost Maiden</a></li>
+            <li><a href="notes/Eilistraee.html">Eilistraee</a></li>
             <li><a href="notes/Gond.html">Gond</a></li>
             <li><a href="notes/Helm.html">Helm</a></li>
             <li><a href="notes/Selûne.html">Selûne</a></li>
             <li><a href="notes/Shar.html">Shar</a></li>
+          </ul>
+        </details>
+        <details>
+          <summary>History</summary>
+          <ul>
+            <li><a href="notes/Before The Campaign.html">Before The Campaign</a></li>
           </ul>
         </details>
         <details>
@@ -106,6 +115,7 @@
             <li><a href="notes/Kras.html">Kras</a></li>
             <li><a href="notes/Little Tom.html">Little Tom</a></li>
             <li><a href="notes/Mako.html">Mako</a></li>
+            <li><a href="notes/Nass.html">Nass</a></li>
             <li><a href="notes/Vyth.html">Vyth</a></li>
             <li><a href="notes/Xardurok.html">Xardurok</a></li>
           </ul>
@@ -113,6 +123,9 @@
         <details>
           <summary>Session Notes</summary>
           <ul>
+            <li><a href="notes/Session 031.html">Session 031</a></li>
+            <li><a href="notes/Session 030.html">Session 030</a></li>
+            <li><a href="notes/Session 029.html">Session 029</a></li>
             <li><a href="notes/Session 028.html">Session 028</a></li>
             <li><a href="notes/Session 027.html">Session 027</a></li>
             <li><a href="notes/Session 026.html">Session 026</a></li>
@@ -141,6 +154,25 @@
             <li><a href="notes/Session 003.html">Session 003</a></li>
             <li><a href="notes/Session 002.html">Session 002</a></li>
             <li><a href="notes/Session 001.html">Session 001</a></li>
+          </ul>
+        </details>
+      </ul>
+    </details>
+  </ul>
+</details>
+<details>
+  <summary>Learning</summary>
+  <ul>
+    <details>
+      <summary>AZ900</summary>
+      <ul>
+        <details>
+          <summary>2023-10</summary>
+          <ul>
+            <li><a href="notes/0 - Introduction.html">0 - Introduction</a></li>
+            <li><a href="notes/1 - Cloud Concepts.html">1 - Cloud Concepts</a></li>
+            <li><a href="notes/2 - Azure Achitecture and Services.html">2 - Azure Achitecture and Services</a></li>
+            <li><a href="notes/3 - Azure Management and Governance.html">3 - Azure Management and Governance</a></li>
           </ul>
         </details>
       </ul>

@@ -2,15 +2,16 @@
 tags: [Notebooks/D&D/Tundra Campaign/Session Notes]
 title: Session 018
 created: '2022-04-05T21:47:14.054Z'
-modified: '2022-04-05T21:47:21.654Z'
+modified: '2023-09-20T20:46:14.789Z'
 ---
 
 # Session 018
 
-The party continues to explore the structure buried in the ice, upside-down, beneath Emberhold. They open the chest bolted to the ceiling and potions fall out. They manage to catch a few, and the others smash and break. They fight a few remorhaz as they emerge from below, then move on through the levels. In the rooms they discover decomposed bodies, scattered books, and Chaos finds a magic ring on the finger of a skeleton. Morn finds a key that unlocks a small meeting room with a silence spell inside the entire chamber. 
+Half the party fights the Queen Remorhaz. Chaos attempts to serenade the monster while Jar sends Vyth to warn Morn and Fionnlagh of the attack. Finn has offered to help Dzaan, and his spirit enters the amulet. Morn stands at the door to block Finn from taking the amulet to the illusion room where, according to Dzaan, a life sacrifice will be required. Fionnlagh says he won't help the others fight the Remorhaz if Morn will not allow him to pass, so he sits on the floor to meditate. Morn turns to help the others out of the hole in the ground. Chaos clambers up to safety and Jar misty-steps upstairs. The Queen attacks through the hole and almost swallows Chaos. Fionnlagh then joins the fight and Morn deals the death blow with his tempest magic.
 
-The group encounters an invisible man, and using the lantern of revealing they find out he is a wizard named Dzaan. He tells them of his tower and shows an illusion of a floating city. Jar tells him everything about their quest, and Dzaan realizes his people must have lost the war. He tells them of two sisters and their factions: The Mind and The Balance. Morn asks why he cannot leave the room, and the wizard explains that he is simply an echo of his master.
+As the Queen is dying, Jar tells Fionnlagh to use the lifeforce for the amulet. They're too slow, however, and the soul of the Queen is sucked into the black stone of the tower and disappears. 
 
-Fionnlagh is especially interested in Dzaan’s tales, and asks more about the sisters, whose names were Selune and Shar. The sisters were fused together as punishment by the gods. Dzaan agrees to help them with the dragon if they use his amulet to bring him to the top of the tower, where he can make his illusions into reality. The ritual requires a life sacrifice. Fionnlagh is keen to help but the rest are hesitant.
+The group rests and heals while Fionnlagh goes off to explore the last of the tower. He enters the illusion room and speaks to Dzaan again, promising to find a worthy sacrifice for his resurrection before returning him to the amulet, and placing the amulet back in Dzaan's chamber. 
+Fionnlagh touches the black altar inside the illusion room and takes the flask that magically appears from it. He then creates a minor illusion inside the space and tries to form arrows, which then turn into a horrible black ooze. The ooze attacks, and everyone rushes in to help. They fight and some of the party members are gravely injured. As they flee, they continue to shoot at it until it is finally killed.
 
-Chaos slips on the ring she found and speaks with the captured soul of Imdra, an apprentice of Dzaan’s. She tells Chaos about her boss, claiming he did great things. As Chaos and Jar move to the next level of the tower, they see the slithering body of a gigantic remorhaz.
+They finish exploring the tower and find a bedroom containing an old mechanical figurine. Chaos stubs her toe on an invisible chest and Jar and Finn manage to open it and find a spellbook inside. Finally, the adventurers return to Emberhold and tell Harper what they found in the tower under the outpost. They find Koda with her owlbear eggs, which have hatched in their absence (hence her own absence from the adventures). Morn wants them to hurry to their next task: the white dragon. The party quickly assembles aboard Jar's steam-engine boat, and chug their way toward the dragon's lair.
