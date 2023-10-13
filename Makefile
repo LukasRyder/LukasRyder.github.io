@@ -5,7 +5,8 @@ vendor/autoload.php: composer.lock
 	composer2 install
 
 index.md: notes/*.md attachments/* vendor/autoload.php bin/render
-	bin/render notes/*.md > $@
+	bin/render notes/*.md > $@.tmp
+	mv -f $@.tmp $@
 
 public: notes/*.md attachments/* vendor/autoload.php index.md
 	mkdir $@
