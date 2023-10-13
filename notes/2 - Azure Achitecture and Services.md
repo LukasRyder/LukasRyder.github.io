@@ -2,10 +2,11 @@
 tags: [Notebooks/Learning/AZ900/2023-10]
 title: 2 - Azure Achitecture and Services
 created: '2023-10-12T08:09:01.045Z'
-modified: '2023-10-13T08:57:50.464Z'
+modified: '2023-10-13T12:27:12.843Z'
 ---
 
 # 2 - Azure Achitecture and Services
+[MS Learn](https://learn.microsoft.com/en-us/training/paths/azure-fundamentals-describe-azure-architecture-services/)
 *35%-40%*
 
 *FYI Azure Active Directory = Entra ID*
@@ -184,7 +185,7 @@ Azure compute is an on-demand computing service that provdes computing resources
     - 192.168.0.0 /16
   - *For more information see RFC 1918*
   - /x > x is the number of bits that are predetermined.
-  - Microsoft needs 2 extra address spaces besides the gateway in a subnet.
+  - Microsoft needs 3 extra address spaces besides the gateway in a subnet.
 - Network protocols
   - TCP: Handshake
   - UDP: one way
@@ -239,7 +240,7 @@ Archive is an agreement for 180 days even if you change it to something else wit
 - Block Blob each block you can address by a specific ID
 - **Append blobs** are composed of blocks and are optimized for append operations. When you modify an append blob, blocks are added to the end of the blob only, via the Append Block operation. Updating or deleting of existing blocks is not supported. Unlike a block blob, an append blob does not expose its block IDs.
 
-## Azure Migrate
+### Azure Migrate
 - Unified migration platform
 - Range of tools
 - **Azure Data Box** You hire data boxes(disks) from Microsoft to import/export data to Azure.
@@ -258,7 +259,61 @@ Archive is an agreement for 180 days even if you change it to something else wit
 | Copy blobs or files to or from your storage account | Compatible with Windows, MacOS and Linux | Cloud tiering keeps frequently access files local while freeing up space |
 | One-direction synchronisation | Uses AzCopy to handle file operations | Rapid reprovisioning of failed loval servers (install and resync) |
 
+# Identity and Access
 
+| Authentication | Authorisation | Accounting |
+| :---- | :---- | :---- |
+| Identifies the person or service seeking access to a resource | Determines an authenticated person's or service's level of access | Records what a person or service did with their access |
+| Requires legitimate access credentials | Defines what data they can access | |
+| Basis for creating secure identity and access control principles | |
+
+- **Multi-Factor Authentication** provides additional security for your identities by requiring two or more elements for full authentication. Uses two things of different types:
+  - Something you know
+  - Something you possess
+  - Something you are
+
+### Microsoft Entra ID
+Azure's cloud-based identity and access management service.
+  - Authentication 
+  - Single Sign On
+  - Application management
+  - Business to Business
+  - Device management
+- Gain the benefit of cloud-based domain servies without managing domain controllers.
+- Run legacy applications (that can't use modern auth standards) in the cloud
+- Automatically sync from Microsoft Entra ID
+
+**Conditional Access** is used to bring signals together to make decisions and enforce organisational policies
+- User or Group Membership
+- IP Location
+- Device
+- Application
+- Risk detection
+
+**Role-based Access Control** RBAC
+- Fine-grained access management
+- Segregate duties withing the team and grant only the amount of access to users that they need to perform their job.
+- Enables access to the Azure portal and controlling to resources
+- This can happen in Entra ID *and/or* in the subscription. These are the same users and groups.
+
+Custom roles are only possible with a premium 1 or 2 account.
+- Microsoft advices > Global administrator minimum 2 but not more than 4 or 5.
+
+### Security principles
+- **Zero trust** We know there are hackers on our network, so we don't trust anything. Protect assets anywhere with a central policy.
+- **Defense in depth** a layered approach to securing computer systems. Attacks against one layer are isolated from subsequent layers.
+  - Physical
+  - Identity & Access
+  - Perimeter
+  - Network
+  - Compute
+  - Application
+  - Data
+- **Microsoft Defender for Cloud** is a monitoring service that provides threat protection across both Azure and on-premisess datacenters
+  - Provides security recommendations
+  - Detect & block malware
+  - Analyse and identify potential attacks
+  - Just-in-time access control for ports
 
 
 

@@ -2,10 +2,11 @@
 tags: [Notebooks/Learning/AZ900/2023-10]
 title: 1 - Cloud Concepts
 created: '2023-10-12T07:49:54.865Z'
-modified: '2023-10-12T09:42:09.303Z'
+modified: '2023-10-13T12:27:37.211Z'
 ---
 
 # 1 - Cloud Concepts
+[MS Learn](https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/)
 *25%-30%*
 
 **Cloud Computing** is the delivery of computing services over the *internet* enabling faster innovation, flexible resources, and economies of scale.
