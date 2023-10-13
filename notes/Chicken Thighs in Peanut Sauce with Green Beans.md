@@ -2,7 +2,7 @@
 tags: [Notebooks/Cooking/Recipes]
 title: Chicken Thighs in Peanut Sauce with Green Beans
 created: '2022-11-07T18:09:30.123Z'
-modified: '2022-11-07T18:24:56.718Z'
+modified: '2023-10-13T17:50:24.440Z'
 ---
 
 # Chicken Thighs in Peanut Sauce with Green Beans
@@ -17,11 +17,11 @@ modified: '2022-11-07T18:24:56.718Z'
 | | Sauce Ingredients |
 | ----: | :---- |
 | 1 tbsp | Olive Oil |
-| 2 tbsp | Smooth Peanut Butter |
-| 1 tbsp | Lemon Juice |
-| 2 tbsp | Orange Juice |
-| 1 tbsp | Soy Sauce |
-| 1 tbsp | Siracha |
+| 4 tbsp | Smooth Peanut Butter |
+| 4 tbsp | Lemon Juice |
+| 2 tbsp | Honey |
+| 2 tbsp | Soy Sauce |
+| 2 tbsp | Siracha |
 
 | | More Ingredients |
 | ----: | :---- |
